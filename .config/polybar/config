@@ -173,7 +173,7 @@ margin-bottom = 0
 
 [module/spotify]
 type = custom/script
-interval = 1
+interval = 3
 format-prefix = " "
 format = <label>
 exec = python ~/.config/polybar/scripts/spotify_status.py -t 20 -f '{artist}: {song}'
@@ -189,7 +189,7 @@ format-disconnected = %{A1:$HOME/.config/polybar/scripts/nmcli-rofi:}icon-or-lab
 
 [module/spp]
 type = custom/script
-interval = 0
+interval = 1
 exec = /home/otavio/.config/polybar/scripts/play_pause.sh
 format = <label>
 click-left = playerctl play-pause
