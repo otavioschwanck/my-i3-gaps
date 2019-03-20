@@ -37,3 +37,12 @@ You will need those itens for manjaro:
 - polybar (AUR)
 - xorg-xbacklight
 - ttf-font-awesome
+
+
+Fix HOME and END for urxvt:
+
+Add:
+"\e[7~":beginning-of-line
+"\e[8~":end-of-line
+
+to /etc/inputrc

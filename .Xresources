@@ -58,8 +58,8 @@ rofi.show-icons:		    True
 rofi.color-normal: argb:00000000, #FFFFFF, argb:00000000, #2A303D, #4084D6
 rofi.color-window: #2F343F, #000000, #832757
 
-
 ! Normal copy-paste keybindings without perls
+URxvt*loginShell:                 True
 URxvt.iso14755:                   false
 URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
@@ -72,3 +72,10 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
+
+! Active with ou want transparency
+! URxvt.transparent: true
+! URxvt.shading:5
+
+! Included this so you know how to make your foreground not match the color of your background
+URxvt.foreground: #eeeeee
