@@ -36,3 +36,4 @@ You will need those itens for manjaro:
 - rofi
 - polybar (AUR)
 - xorg-xbacklight
+- ttf-font-awesome
