@@ -35,3 +35,4 @@ You will need those itens for manjaro:
 - xclip
 - rofi
 - polybar (AUR)
+- xorg-xbacklight
